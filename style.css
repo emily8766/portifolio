@@ -1,0 +1,153 @@
+body{
+    background-color: 	#f8b0b0;
+}
+
+.corpo{
+    background-color: white;   
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.apresentacao-geral >div{
+  
+  text-align: center;
+ 
+}
+
+.foto-capa{
+    width: 180px;
+    margin: 5px;
+    
+}
+
+.apresentacao {
+    text-align: center;
+    width:  20%;
+    float: left;
+    
+    }
+
+.apresentacao2{
+    width:  80%;
+    font-size: 20px;
+    float:left;
+}
+
+.apresentacao2> p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.links{
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #c23d3d;
+    color:rgb(0, 0, 0);
+    text-align: right;
+    padding-right: 1110px;
+    
+}
+.links >a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.projetos  img {
+    width: 150px;
+
+}
+
+.projetos div{
+    float: left;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-left: 13%;
+    
+}
+
+
+.projetos a{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.habilidades{
+    border-left: solid black 1px;
+}
+
+.formacao, .habilidades{
+    font-size: 20px;
+    float: left;
+    width: 45%;
+    margin-top: 0px;
+    
+}
+
+.experiencias {
+    font-size: 20px;
+}
+.experiencias > li{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.titulo{
+    font-size: 26px;
+    color: red;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Times New Roman, serif;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr{
+    color:rgb(75, 47, 175);
+}
+
+.conhecimento{
+    width: 350px;
+    float:left;
+}
+
+.conhecimento > li{
+    text-align: justify;
+}
+.outros > div{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5px;
+  
+}
+
+.contato{
+    margin-left: 150px;
+    float: right;
+}
+
+input, textarea{
+    
+    background-color: rgb(206, 206, 206);
+}
