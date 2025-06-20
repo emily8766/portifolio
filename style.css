@@ -1,0 +1,76 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    position: relative;
+    top:0;
+    width: 100%;
+    height:10%;
+
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+    min-width: 40%;
+    margin-left: 40%;
+}
+
+nav >ul> li{
+    color: white;
+    display: inline-block;
+    padding: 1%;
+    margin-top:5%;
+}
+
+nav>ul> li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size:20px;
+}
+
+nav>ul> li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+.conteudo{
+    background: url("./imagens/capa.jpg") no-repeat ;
+    background-size: 100%;
+    width: 100%;
+    height:100vh;
+    color:white;
+}
+
+footer{
+   background-color: black;
+   text-align: center;
+   color: white;
+   padding:2%;
+}
+
+.limpar{
+    clear:both;
+}
+
+.wpp{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    background-color: #25D366;
+    width: 10%;
+    height: 10%;
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+}
