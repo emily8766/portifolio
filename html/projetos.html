@@ -17,6 +17,14 @@
 	font-family: arial;
 	}
 
+	.projetos .h1{
+	background-color:black;
+	padding:1%;
+	margin:0;
+	width:100%;
+	font-size:40px;
+	}
+
 	.projetos .proj{
 
 	width: 60%;
@@ -28,14 +36,7 @@
 	
 	}
 
-	.projetos .h1{
-	background-color:black;
-	padding:1%;
-	margin:0;
-	width:100%;
-	font-size:40px;
-	}
-
+	
 	.imagem img{
 	float: left;
 	width: 38%;
@@ -52,6 +53,50 @@
 	text-align:justify;
 	}
 
+
+	@media (max-width: 767.98px){
+		.projetos .h1{
+			background-color:black;
+			padding:2%;
+			margin:0;
+			font-size:20px;
+		}
+		
+		.imagem , .conteudo-projeto{
+			height: 30%;
+		}
+
+		.projetos .proj{
+
+			width: 100%;
+			height:auto;
+			margin-top:2%;
+			margin-left:2%;
+			background-color:white;
+			background-color:rgba(255, 255, 255, 0.9);
+		}
+		
+		.imagem img{
+			float: left;
+			width: 30%;
+			height:180px ;
+
+		}
+		
+		.conteudo-projeto{
+			margin: 0;
+			width: 67%;
+		}
+
+		.conteudo-projeto h1{
+			font-size: 15px;
+		}
+		
+		.conteudo-projeto p{
+			font-size: 13px;
+		}
+	
+	}
   </style>
 
 </head>
@@ -82,64 +127,70 @@
 	<div class="projetos">
 	<h1 class="h1"> Projetos Práticos </h1>
 
-	<div class="proj">
-		<a href="http://localhost/projeto/barbearia/">
-		<div class="imagem"> 
-			<img src="../imagens/barbearia.jpeg">
+		<div class="proj">
+			<a href="http://localhost/projeto/barbearia/">
+			<div class="imagem"> 
+				<img src="../imagens/barbearia.jpeg">
+			</div>
+				
+			<div class="conteudo-projeto"> 
+				<h1> CORTE URBANO</h1>
+				<p> Site moderno e intuitivo para barbearia, onde o cliente pode
+			conhecer os serviços oferecidos, agendar horários online e entrar em contato com facilidade. Ideal para quem valoriza
+			praticidade, estilo e um bom atendimento.</p>
+				</div></a>
 			</div>
 			
-			<div class="conteudo-projeto"> 
-			<h1> CORTE URBANO</h1>
-			<p> Site moderno e intuitivo para barbearia, onde o cliente pode
-		conhecer os serviços oferecidos, agendar horários online e entrar em contato com facilidade. Ideal para quem valoriza
-		praticidade, estilo e um bom atendimento.</p>
-			</div></a>
-		</div>
-
-	<div class="proj">
-		<a href="http://localhost/projeto/sigede/menu.html">
-		<div class="imagem"> 
-			<img src="../imagens/sigede.jpeg">
-			</div>
-			
-			<div class="conteudo-projeto"> 
-			<h1> SIGEDE- SISTEMA DE GERENCIAMENTO DE DÉBITOS</h1>
-			<p> Site profissional de serviços de cobrança, focado em soluções eficientes
-		para recuperação de crédito. Oferece consulta de débitos, contato com o 
-		setor de negociações e opções práticas para regularização de dívidas, tudo
-		com segurança e transparência. </p>
-			</div>
-		</a>
-		</div>
+			<div class="limpar"></div>
 
 		<div class="proj">
-			<a href="http://localhost/projeto/sigex/">
+			<a href="http://localhost/projeto/sigede/menu.html">
 			<div class="imagem"> 
-			<img src="../imagens/sigex.jpeg" >
+				<img src="../imagens/sigede.jpeg">
+				</div>
+				
+				<div class="conteudo-projeto"> 
+				<h1> SIGEDE- SISTEMA DE GERENCIAMENTO DE DÉBITOS</h1>
+				<p> Site profissional de serviços de cobrança, focado em soluções eficientes
+			para recuperação de crédito. Oferece consulta de débitos, contato com o 
+			setor de negociações e opções práticas para regularização de dívidas, tudo
+			com segurança e transparência. </p>
+				</div>
+			</a>
+			</div>
+
+			<div class="limpar"></div>
+
+			<div class="proj">
+				<a href="http://localhost/projeto/sigex/">
+				<div class="imagem"> 
+				<img src="../imagens/sigex.jpeg" >
+				</div>
+				
+				<div class="conteudo-projeto"> 
+				<h1> SIGEX - SISTEMA DE GERENCIAMENTO DE EXTINTORES DE INCÊNDIO </h1>
+				<p>Sistema web para gerenciamento completo de extintores de incêndio. Permite o cadastro, controle de validade,
+					manutenção preventiva, localização dos equipamentos e geração de relatórios.</p>
+				</div>
+				</a>
+			</div >	
+
+			<div class="limpar"></div>
+
+		<div class="proj">
+			<a href="http://localhost/projeto/calculadora-imc/">
+			<div class="imagem"> 
+			<img src="../imagens/calculadora-imc.jpeg" >
 			</div>
 			
 			<div class="conteudo-projeto"> 
-			<h1> SIGEX - SISTEMA DE GERENCIAMENTO DE EXTINTORES DE INCÊNDIO </h1>
-			<p>Sistema web para gerenciamento completo de extintores de incêndio. Permite o cadastro, controle de validade,
-				 manutenção preventiva, localização dos equipamentos e geração de relatórios.</p>
+			<h1> CALCULADORA DE IMC </h1>
+			<p> Site simples e rápido para calcular o IMC. O usuário informa 
+		peso e altura, e o sistema exibe o resultado com a classificação 
+		(abaixo do peso, normal, sobrepeso ou obesidade).</p>
 			</div>
 			</a>
-		</div >	
-
-	<div class="proj">
-		<a href="http://localhost/projeto/calculadora-imc/">
-		<div class="imagem"> 
-		<img src="../imagens/calculadora-imc.jpeg" >
-		</div>
-		
-		<div class="conteudo-projeto"> 
-		<h1> CALCULADORA DE IMC </h1>
-		<p> Site simples e rápido para calcular o IMC. O usuário informa 
-	peso e altura, e o sistema exibe o resultado com a classificação 
-	(abaixo do peso, normal, sobrepeso ou obesidade).</p>
-		</div>
-		</a>
-	</div >
+		</div >
 	
 
 	</div>
